@@ -478,7 +478,7 @@ ALLOWED_FORMATS = ["image/jpeg", "image/png"]
 # ------------------------------
 # Load InsightFace Model
 # ------------------------------
-face_app = FaceAnalysis(name="buffalo_l")
+face_app = FaceAnalysis(name="buffalo_s")
 face_app.prepare(ctx_id=0, det_size=(320, 320))  # CPU, faster detection
 
 # ------------------------------
